@@ -1,6 +1,6 @@
 let express = require('express')
 let app = express()
-
+console.log('hello')
 app.get("/index/:id/:name",(req,res)=>{
 
     let param = req.params;
